@@ -1,0 +1,10 @@
+# Program Cek Kelulusan
+try:
+    nilai = float(input("Masukkan nilai kamu: "))
+
+    if nilai >= 80:
+        print(f"Hasil: Lulus! (Mantap bang)")
+    else:
+        print(f"Hasil: Skill Issue. (Turu aja dek)")
+except ValueError:
+    print("Input harus angka ya!")
